@@ -44,6 +44,7 @@ const register = async (req, res) => {
     name: newUser.name,
     email: newUser.email,
     password: newUser.password,
+    subscription: newUser.subscription,
   });
 };
 
